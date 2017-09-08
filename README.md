@@ -11,4 +11,6 @@ Tutorial for quick starting Amazon EMR with Spark and Zeppelin Notebook.
 
 5. Create EMR cluster. Check pricing - https://aws.amazon.com/emr/pricing/. Add tag "spark-zeppelin-demo"
 
-6. Create Zeppelin notebook:
+6. Create Zeppelin notebook.
+
+7. Delete resource group when not in use.
