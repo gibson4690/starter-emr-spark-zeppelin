@@ -1,0 +1,10 @@
+%pyspark
+#1 READ FILE FROM STORAGE
+SensorDataRDD = sc.textFile('s3://emr-spark-zeppelin-demo/s3inputfile.dat')
+
+#2 RDD count Action
+SensorDataCount = SensorDataRDD.count()
+SensorDataCount
+
+#3 Write to storage
+#SensorDataRDD.saveAsTextFile('s3://emr-spark-zeppelin-demo/output.txt')
